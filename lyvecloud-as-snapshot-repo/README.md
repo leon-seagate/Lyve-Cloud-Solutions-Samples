@@ -15,7 +15,6 @@ So if you want to restore ES snapshots versions examples:
     A snapshot of an index created in 6.x can be restored to 7.x.
     A snapshot of an index created in 5.x can be restored to 6.x.
     A snapshot of an index created in 2.x can be restored to 5.x.
-    A snapshot of an index created in 1.x can be restored to 2.x.
 
 **Snapshots of indices created with ES 1.x cannot be restored to 5.x or 6.x, snapshots of indices created in 2.x cannot be restored to 6.x or 7.x, and snapshots of indices created in 5.x cannot be restored to 7.x or 8.x. and so on...**
 
