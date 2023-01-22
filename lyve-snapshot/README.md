@@ -26,14 +26,14 @@ restoring undeleted snapshots.
 
 
 ## Prerequisites
-Setup elastic search cluster using Elastic search main documantation from
+Setup Elastic search cluster using Elastic search main documantation from
 [Elasticsearch website](https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html).
 
-Please keep in mind, To use searchable snapshots, you will need to have an Elasticsearch cluster running version 7.9 or higher.
+Please keep in mind, to use searchable snapshots, you will need to have an Elasticsearch cluster running version 7.9 or higher.
 
-## Minimal configuration (please advise security team bofore running in production)
+## Minimal configuration (please advise security team before running in production)
 
-1. Open elasticsearch configuration file
+1. Open Elasticsearch configuration file
 
 ``` bash
 sudo nano /etc/elasticsearch/elasticsearch.yml
@@ -59,7 +59,7 @@ Here's what you'll need:
 
 
 
-1. Load  access key and secret key to elastic key store
+1. Load  access key and secret key to Elastic key store
 
 Change in the next commands the access-key and secret-key to the
 service account credentials for the bucket which will hold the snapshot.
@@ -196,11 +196,11 @@ Output:
 
 Now the snapshot is restored.
 
-# Serchable snapshot 
+# Searchable snapshot 
  A searchable snapshot is a snapshot of an Elasticsearch index that can be used to search and analyze data without having to restore the data to an index.
  Searchable snapshots can be used to create a read-only copy of an index for use in analytics or testing, or as a backup that can be restored in case of data loss.
 
-To use the searchable snapshot, Enterprice edition is required.
+To use the searchable snapshot, enterprice edition is required.
 to start trial run the next command
 
 ```bash
