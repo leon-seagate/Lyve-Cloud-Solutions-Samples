@@ -1,5 +1,5 @@
 # lyvecloud-as-snapshot-repo
-Lyve Cloud snapshot and restore to Elasticsearch
+Lyve Cloud snapshot and restore to Elasticsearch.
 
 ## Requirements
 * Elastic search installed.
